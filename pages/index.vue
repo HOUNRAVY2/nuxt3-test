@@ -94,7 +94,7 @@ const isLgScreen = computed(() => {
 
 const { data: proData } = await useAsyncData('products-data', () => $fetch('/api/products'));
 const products = proData.value || {};
-const imageUrl = '_nuxt/assets/images/home/thumbnail.webp';
+const imageUrl = 'https://celebrated-benefit-bc2e837f62.media.strapiapp.com/img_04_9b9e6bda90.webp';
 useHead({
   title: 'Interviews task',
   meta: [
