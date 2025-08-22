@@ -6,31 +6,31 @@ const subMenuData = [
                     id: 1,
                     title: 'BÓNG ĐÁ',
                     linkTo: '/',
-                    icon: '/assets/images/menu-icon/ball.png'
+                    icon: 'https://celebrated-benefit-bc2e837f62.media.strapiapp.com/ball_1122bcd2d0.png'
                 },
                 {
                     id: 2,
                     title: 'Đua BI',
                     linkTo: '/',
-                    icon: '/assets/images/menu-icon/card.png'
+                    icon: 'https://celebrated-benefit-bc2e837f62.media.strapiapp.com/card_eab7c6e9f1.png'
                 },
                 {
                     id: 3,
                     title: 'BÓNG Rổ',
                     linkTo: '/',
-                    icon: '/assets/images/menu-icon/basketball.png'
+                    icon: 'https://celebrated-benefit-bc2e837f62.media.strapiapp.com/basketball_b63861b7ae.png'
                 },
                 {
                     id: 4,
                     title: 'e-sports',
                     linkTo: '/',
-                    icon: '/assets/images/menu-icon/game.png'
+                    icon: 'https://celebrated-benefit-bc2e837f62.media.strapiapp.com/game_e8e85ba21f.png'
                 },
                 {
                     id: 5,
                     title: 'Casino',
                     linkTo: '/',
-                    icon: '/assets/images/menu-icon/casino.png'
+                    icon: 'https://celebrated-benefit-bc2e837f62.media.strapiapp.com/casino_8d8cd57943.png'
                 },
             ]
 

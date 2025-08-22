@@ -17,7 +17,7 @@
               </NuxtLink>
               <div v-if="link.subMenu" class="absolute space-y-[5px] px-[5px]  top-0 left-1/2 -translate-x-1/2  pt-[48px] pb-[20px] bg-gray-400/80 backdrop-blur-md text-black shadow-lg rounded-md overflow-hidden z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none group-hover:pointer-events-auto w-[170px]" >
                 <NuxtLink v-for="item in link.subMenu" :key="item.id" :to="item.linkTo" class="block uppercase px-[12px] py-[6px] text-sm  hover:text-[#E4B764] hover:bg-gradient-to-b from-black to-[#5C5C5C] hover:border-none rounded-full bg-gray-400/90  transition-colors">
-                  <img v-if="item.icon" :src="`_nuxt${item.icon}`" alt="icon" class="inline-block shrink-0 w-[30px] h-[30px]">
+                  <img v-if="item.icon" :src="`${item.icon}`" alt="icon" class="inline-block shrink-0 w-[30px] h-[30px]">
                   {{ item.title }}
                 </NuxtLink>
               </div>
@@ -150,7 +150,7 @@
 <div class="flex justify-end items-center md:px-[30px] px-[10px] py-[8px] md:space-x-[20px] space-x-[8px]">
   <div>
     <NuxtLink v-for="item in navData.menu[0].subMenu" :key="item.id" :to="item.linkTo" class="hover:scale-[1.02] transition-all">
-                  <img v-if="item.icon" :src="`_nuxt${item.icon}`" alt="icon" class="inline-block shrink-0 md:w-[46px] w-[34px] md:h-[34px] h-[26px]">
+                  <img v-if="item.icon" :src="`${item.icon}`" alt="icon" class="inline-block shrink-0 md:w-[46px] w-[34px] md:h-[34px] h-[26px]">
         
                 </NuxtLink>
   </div>
@@ -208,7 +208,7 @@
               </NuxtLink>
               <div v-if="link.subMenu" class="hidden space-y-[5px] px-[5px] group-hover:block w-full" >
                 <NuxtLink v-for="item in link.subMenu" :key="item.id" :to="item.linkTo" class="block uppercase px-[16px] py-[8px] border-t  text-sm  ">
-                  <img v-if="item.icon" :src="`_nuxt${item.icon}`" alt="icon" class="inline-block shrink-0 w-[30px] h-[30px]">
+                  <img v-if="item.icon" :src="`${item.icon}`" alt="icon" class="inline-block shrink-0 w-[30px] h-[30px]">
                   {{ item.title }}
                 </NuxtLink>
               </div>

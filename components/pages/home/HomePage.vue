@@ -18,7 +18,7 @@
             :key="index"
             class="product-card"
           >
-            <img :src="'_nuxt' + product.image" :alt="product.alt" />
+            <img :src="product.image" :alt="product.alt" />
             <div class="info">
               <h3>{{ product.title }}</h3>
               <p>{{ product.subtitle }}</p>
@@ -33,7 +33,7 @@
           :key="index"
           class="product-card"
         >
-          <img :src="'_nuxt' + product.image" :alt="product.alt" />
+          <img :src="product.image" :alt="product.alt" />
           <div class="info">
             <h3>{{ product.title }}</h3>
             <p>{{ product.subtitle }}</p>

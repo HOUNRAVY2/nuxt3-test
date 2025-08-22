@@ -19,7 +19,6 @@
            <Icon name="iconoir:fast-arrow-top"  size="22"/>
         </button>
       </div>
-<img :src="'_nuxt/assets/images/home/img-01.webp'" alt="product.alt" class="w-full md:h-[150px] h-[200px] object-cover" />
       <div v-if="isSliderView && isLgScreen" class="relative w-full border-t-[2px] border-[#E4B764] rounded-[20px] pt-[10px]">
         <swiper
           :modules="[Navigation]"
@@ -33,7 +32,7 @@
             :key="index"
             class="bg-[#1e1e2d] rounded-xl overflow-hidden shadow-md relative"
           >
-            <img :src="'_nuxt' + product.image" :alt="product.alt" class="w-full h-[150px] object-cover" />
+            <img :src="product.image" :alt="product.alt" class="w-full h-[150px] object-cover" />
             <div class="p-2.5 text-black bg-gradient-to-r from-[#F8E889] to-[#E4B764]">
               <h3 class="text-base m-0 mb-1.5">{{ product.title }}</h3>
               <p class="text-sm m-0">{{ product.subtitle }}</p>
@@ -49,7 +48,7 @@
           :key="index"
           class="bg-[#1e1e2d] rounded-xl overflow-hidden shadow-md relative hover:scale-[1.01] transition-all ease-in-out cursor-pointer"
         >
-          <img :src="'_nuxt' + product.image" :alt="product.alt" class="w-full md:h-[150px] h-[200px] object-cover" />
+          <img :src="product.image" :alt="product.alt" class="w-full md:h-[150px] h-[200px] object-cover" />
           <div class="p-2.5 text-black bg-gradient-to-r from-[#F8E889] to-[#E4B764]">
             <h3 class="text-base m-0 mb-1.5">{{ product.title }}</h3>
             <p class="text-sm m-0">{{ product.subtitle }}</p>
