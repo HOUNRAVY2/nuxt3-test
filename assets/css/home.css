@@ -1,0 +1,7 @@
+.text-gold2 {
+ 
+  background: linear-gradient(to bottom, #F8E889 50%, #E4B764 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
