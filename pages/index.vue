@@ -19,7 +19,7 @@
            <Icon name="iconoir:fast-arrow-top"  size="22"/>
         </button>
       </div>
-
+<img :src="'_nuxt/assets/images/home/img-01.webp'" alt="product.alt" class="w-full md:h-[150px] h-[200px] object-cover" />
       <div v-if="isSliderView && isLgScreen" class="relative w-full border-t-[2px] border-[#E4B764] rounded-[20px] pt-[10px]">
         <swiper
           :modules="[Navigation]"
